@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#background {
+    /*background-image: linear-gradient(to right, rgb(78, 29, 16) 33.3%, ivory 33.3%, ivory 66.6%, pink 66.6%);*/
+    /*background: radial-gradient(closest-side, #3f87a6, #ebf8e1, #f69d3c);*/
+    background: radial-gradient(circle at 100%, #333, #333 50%, #eee 50%, #333 75%);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+}
+
+#cor {
+    display: flex;
+    position: relative;
+    box-sizing: border-box;
+    top: 1rem;
+    left: 1rem;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
+}
